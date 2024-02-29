@@ -1,0 +1,67 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylehomepage.css">
+    <meta http-equiv="X-UA-Sompatible" content="IE=edge">
+    <script>
+        function changeContent(title, description, buttonText, imageUrl, targetUrl) {
+
+            console.log("Change content called with", title, description, buttonText, imageUrl, targetUrl);
+
+            // Ändern Sie den Text der Überschriften
+            document.querySelector('.col h1').innerHTML = title;
+            document.querySelector('.col p').innerHTML = description;
+
+            // Ändern Sie den Text und die URL des Buttons
+            var button = document.querySelector('.col button');
+            button.innerHTML = buttonText;
+            button.onclick = function() {
+                window.location.href = `${targetUrl}?background=${imageUrl}`;
+            };
+
+            var video = document.getElementById('backgroundVideo');
+            video.src = '';
+
+            document.body.style.backgroundImage = `url(${imageUrl})`;
+            document.body.style.backgroundImage = `url(${imageUrl})`;
+            document.body.style.backgroundPosition = "center";
+            document.body.style.backgroundSize = "cover";
+            document.getElementById('frontimage'.src = imageUrl)
+            sessionStorage.setItem('path', imageUrl);
+            sessionStorage.setItem('pathh', description);
+            document.getElementById('frontimage'.description);
+
+        }
+    </script>
+    <script src="dokument.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <video src="../Bilder/video2.mp4" autoplay muted loop id="backgroundVideo"></video>
+        <div class="row">
+            <div class="col">
+                <h1>Wählen sie Ihren Hintergrundbild aus </h1>
+                <p></p>
+                <button type="button" onclick="changeContent('Saitama', 'Beschreibung für  Zertifikat.', 'Auf Zertifikat gehen', '/Bilder/Bild1.jpg', 'Zertifikat.html')">Auswählen</button>
+            </div>
+            <div class="col">
+                <div class="card luffy" onclick="changeContent('Saitama Zertifikat', 'Beschreibung für  Zertifikat.', 'Auf Zertifikat gehen', '/Bilder/Bild1.jpg', 'Zertifikat.html')">
+                    <h5>Peka</h5>
+                </div>
+                <div id="Bild2" class="card Bild2" onclick="changeContent('Pekka Zertifikat', 'Beschreibung für  Zertifikat.', 'Auf Google gehen', '../Bilder/Bild2.jpg', 'Zertifikat.html')">
+                    <h5>Peka</h5>
+                </div>
+                <div id="Bild3" class="card Bild3" onclick="changeContent('Gojo Zertifikat', 'Beschreibung für  Zertifikat.', 'Auf Zertifikat gehen', '/Bilder/Bild3.jpg', 'Zertifikat.html')">
+                    <h5>Luffy Zertifikat</h5>
+                </div>
+                <div id="Bild4" class="card Bild4" onclick="changeContent('Mercedes Zertifikat', 'Beschreibung für  Zertifikat.', 'Auf Zertifikat gehen', '/Bilder/Bild4.jpg', 'Zertifikat.html')">
+                    <h5>Luffy Zertifikat</h5>
+                    <img src="" alt="" id="bild">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

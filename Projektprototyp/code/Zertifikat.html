@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylebackground.css">
+    <script>
+        window.onload = function() {
+            const imagePath = sessionStorage.getItem('path');
+            const descriptionText = sessionStorage.getItem('pathh');
+            if (imagePath) {
+                document.querySelector('.brush').style.backgroundImage = `url(${imagePath})`;
+                document.querySelector('.brush').style.backgroundPosition = "center";
+                document.querySelector('.brush').style.backgroundSize = "cover";
+
+                document.getElementById('backgroundfürZertifikat').style.backgroundImage = `url(${imagePath})`;
+                document.getElementById('backgroundfürZertifikat').style.backgroundPosition = "center";
+                document.getElementById('backgroundfürZertifikat').style.backgroundSize = "cover";
+            }
+            if (descriptionText) {
+                document.getElementById('description').innerHTML = descriptionText;
+            }
+
+
+
+        };
+    </script>
+
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="brush"></div>
+    <div class="Zertifikat">
+        <div id="backgroundfürZertifikat">
+            <div class="Überschriftborder">
+                <p id="textlogo">Zertifikat</p>
+                <div class="border1">
+
+                    <div class="border">
+                        <p id="description"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
