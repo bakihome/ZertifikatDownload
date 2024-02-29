@@ -1,6 +1,6 @@
 # Auf einer Webseite für "Kreative Manga IT Zertifikate" soll einen Button (Download) integriert werden 
 
-## Ganz unten kann eine Link Dokumentation geführt werden!) (dient der übersicht und nachvollziehbarkeit der Recherchen wer möchte)
+## Ganz unten kann eine Link Dokumentation geführt werden (dient der übersicht und nachvollziehbarkeit der Recherchen wer möchte)
 
 Überlick:
 
