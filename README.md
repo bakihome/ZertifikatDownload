@@ -1,5 +1,5 @@
 ## "HTL Workshop-Zertifikat: Frontend - Designauswahl und Namenseingabe, Backend - mit anschliessendem QR-Code-Download von Server"
-
+---
 ### Inhaltsverzeichnis:
 
 #### 1. Backend Download-Button, QR Code, auf Frontend landing Page 
@@ -20,6 +20,7 @@
 	5.4 Vorschlag für die Implementierung (Frontend):
 
 #### 6. Importend Research links:
+---
 
 # Inhalt
 
