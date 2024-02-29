@@ -1,4 +1,4 @@
-# Welcome to the HTL-Online-Workshop-Zertifikat wiki!
+# Welcome to the HTL-Workshop-Certificate wiki!
 
 practice, makes better:) 
 
