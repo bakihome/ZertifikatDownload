@@ -40,7 +40,7 @@ oder ihr klickt [hier](https://vscode.dev/github/bakihome/ZertifikatDownload) un
     
  - **Speichern von Zertifikaten**: Implementierung von einem Mechanismus zum Speichern der Zertifikate auf dem Server, z. B. in einer Datenbank.
  - **QR-Code-Generierung**: Implementierung einer Funktion, um QR-Codes für jedes gespeicherte Zertifikat zu generieren und wieder auf die Mainpage sendet.
- - **API-Endpunkte**: API-Endpunkte zum Empfangen von Daten, vom Website-Team und zum Bereitstellen von Zertifikaten und QR-Codes.
+ - **API-Endpunkte**: API-Endpunkte zum Empfangen von Daten, vom Frontend-Team und zum Bereitstellen von Zertifikaten und QR-Codes.
 
 - **PDF |or Screenshot Generierung**:
 
@@ -52,7 +52,7 @@ oder ihr klickt [hier](https://vscode.dev/github/bakihome/ZertifikatDownload) un
 Sie müssen Schnittstellen bereitstellen, um die eingegebenen Daten an das Backend-Team zu senden.
     
 - **API-Endpunkte**: Definieren klarer API-Endpunkte, über die das Backend-Team die Daten empfangen können.
-- **Datenformat**: Vereinbaren Sie ein Datenformat, das sowohl vom Website-Team als auch vom Backend-Team verstanden wird, z. B. JSON.
+- **Datenformat**: Vereinbaren Sie ein Datenformat, das sowohl vom Frontend-Team als auch vom Backend-Team verstanden wird, z. B. JSON.
 - Das Frontend-Team kann einen Dienst oder eine Bibliothek verwenden, um dynamisch ein PDF-Dokument zu generieren, das den gewünschten Teil der Website (das Zertifikat) enthält.
 - Sie können beispielsweise Bibliotheken wie Puppeteer (für Node.js) oder WeasyPrint (für Python) verwenden, um den gewünschten Bereich der Website als PDF zu rendern und zu speichern.
 
