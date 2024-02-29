@@ -1,5 +1,7 @@
 # Auf einer Webseite für "Kreative Manga IT Zertifikate" soll einen Button (Download) integriert werden 
 
+## Ganz unten kann eine Link Dokumentation geführt werden! (dient der übersicht und nachvollziehbarkeit der Recherchen wer will)
+
 #### Eigenschaften des Buttons:
 
 1. Erstellt wird ein Screenshot/PDF der aktuellen Seite (ausgefülltes Zertifikat eines Benutzers)   
@@ -83,6 +85,13 @@ document.getElementById('screenshotButton').addEventListener('click', function()
 4. **QR-Code-Generierung + Download Link**: Nutzen einer geeigneten Bibliothek (z.B. `qrcode` für Node.js oder PHP QR Code), um einen QR-Code zu generieren, der den Download-Link zum Screenshot enthält.
 
 5. **Antwort an den Client**: Senden des QR-Code´s zurück an den Client, damit dieser ihn anzeigen kann.
+
+
+# Importend Research links:
+
+https://stackoverflow.com/questions/23359083/how-to-convert-webpage-into-pdf-by-using-python
+https://pypi.org/project/pdfkit/
+https://www.youtube.com/watch?v=46c__islxCg
 
 
 
