@@ -1,6 +1,10 @@
-# Auf einer Webseite für "Kreative Manga IT Zertifikate" soll einen Button (Download) integriert werden 
+# Auf einer Webseite für ein "HTL - IT Zertifikate - Manga Style" soll einen Button (Download) integriert werden.
 
 ## Ganz unten kann eine Link Dokumentation geführt werden (dient der übersicht und nachvollziehbarkeit der Recherchen wer möchte)
+
+### kleiner hint: macht zwei browser auf, in beiden Fenstern in Repository Anmelden, in die URL Adressleiste könnt ihr, vor dieser Adresse: https://github.com/bakihome/ZertifikatDownload 
+dieses snippet eintragen `vscode.dev/` also wie folgt: vscode.dev/https://github.com/bakihome/ZertifikatDownload und enter drücken. // es öffnet sich daraufhin - VS.Code im Browser -
+oder ihr klickt [hier](https://vscode.dev/github/bakihome/ZertifikatDownload) und werdet so zum - VS.Code im Browser - Rediracted:) 
 
 Überlick:
 
@@ -28,18 +32,20 @@
 
 - **Das Frontend - Team**: stellt die Benutzeroberfläche bereit, über die die Benutzer das Workshop-Zertifikat auswählen und ihren Namen eingeben können. Sie müssen Schnittstellen bereitstellen, um die eingegebenen Daten an das Zertifikatsspeicher-Team zu senden.
     
-- **API-Endpunkte**: Definieren Sie klare API-Endpunkte, über die das Zertifikatsspeicher-Team Daten empfangen kann.
+- **API-Endpunkte**: Definieren Sie klare API-Endpunkte, über die das Backend-Team Daten empfangen kann.
 - **Datenformat**: Vereinbaren eines konsisten Datenformates, das sowohl vom Frontend-Team als auch vom Backend-Team verstanden wird, z. B. JSON.
-#### **Zertifikatsspeicher-Team** - zuständig für das Speichern der Zertifikate auf dem Server und das Bereitstellen von QR-Codes für den Download.
+
+
+#### **Backend-Team** - zuständig für das Speichern der Zertifikate auf dem Server und das Bereitstellen von QR-Codes für den Download.
     
  - **Speichern von Zertifikaten**: Implementierung von einem Mechanismus zum Speichern der Zertifikate auf dem Server, z. B. in einer Datenbank.
  - **QR-Code-Generierung**: Implementierung einer Funktion, um QR-Codes für jedes gespeicherte Zertifikat zu generieren und wieder auf die Mainpage sendet.
  - **API-Endpunkte**: API-Endpunkte zum Empfangen von Daten, vom Website-Team und zum Bereitstellen von Zertifikaten und QR-Codes.
 
-- **PDF | Screenshot Generierung**:
+- **PDF |or Screenshot Generierung**:
 
     - Probleme: PDF übernimmt nicht Design der Website sondern nur Text // sure fix? // Bastian hatte das wiederlegt
-    - Probleme: PDF - Wie bekommt man das als A4 Format? // sure fix?
+    - Probleme: PDF - Wie bekommt man das als A4 Format? // sure fix? // Chris hat auch hier etwas
     - Probleme: Screenshot sollte nur Zertifikat fenster aufnehmen nicht den ganzen Bildschirm // sure fix?
 
 #### **Frontend - Team**: Dieses Team stellt die Benutzeroberfläche bereit, über die die Teilnehmer das Workshop-Zertifikat auswählen und ihren Namen eingeben können. 
