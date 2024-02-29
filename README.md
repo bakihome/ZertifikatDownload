@@ -17,10 +17,11 @@
 #### Eigenschaften des Buttons:
 
 1. Erstellt wird ein Screenshot/PDF der aktuellen Seite (ausgefülltes Zertifikat eines Benutzers)   
-2. Screenshot/PDF an einen Server gesendet. 
+2. Screenshot/PDF an einen Server senden. 
 3. Server generiert QR CODE -> Dieser wird zurück an die Main Page gesendet. 
 4. User kann nun Scannen und erhält Download file
-5. Nach erfolgreichem Download wird Zertifikat aus Datenbank gelöscht!
+5. Nach erfolgreichem Download wird Zertifikat aus Datenbank gelöscht! (preventing DDOS)
+   
 ## Es gibt zwei Teams:
 
 #### **Zertifikatsspeicher-Team** --> WIR --- & --- Webdesign Zertifikat Team --> Extern
