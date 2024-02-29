@@ -4,20 +4,20 @@
 
 #### 1. Backend Download-Button, QR Code, auf Frontend landing Page 
 #### 2. Hinweise 
-	##### 2.1 Organisation
-	###### 2.2 Wer macht was
-	###### 2.3 Next Week 2024/03/07 Abgabe Präsentation: Wie, Wer,
-	###### 2.4 bisher:
-	###### 2.5 To Do List
-	##### 2.6 Tuorials 
+	2.1 Organisation
+	2.2 Wer macht was
+	2.3 Next Week 2024/03/07 Abgabe Präsentation: Wie, Wer,
+	2.4 bisher:
+	2.5 To Do List
+	2.6 Tuorials 
 #### 3. Dokumentation
 #### 4. Teams
+	4.1 Es gibt zwei Teams: Frontend = Extern & Backend = Wir
 #### 5. Vorschläge
-	##### **5.1 Backend Download-Button und QR-Code-Generierung Keywords:**
-	##### **5.2 Hinweise für die Umsetzung PDF:**
-	##### **5.3 Vorschlag für die Implementierung (Datenbank):**
-	##### **5.4 Vorschlag für die Implementierung (Frontend):**
-
+	5.1 Backend Download-Button und QR-Code-Generierung Keywords:
+	5.2 Hinweise für die Umsetzung PDF:
+	5.3 Vorschlag für die Implementierung (Datenbank):
+	5.4 Vorschlag für die Implementierung (Frontend):
 
 #### 6. Importend Research links:
 
@@ -42,7 +42,6 @@
 4. User kann nun Scannen und erhält Download file
 5. Nach erfolgreichem Download wird Zertifikat aus Datenbank gelöscht! (preventing DDOS)
 
-
 ## 2. Hinweise 
 
 ### 2.1 Organisation 
@@ -52,22 +51,25 @@
   		2.4 bisher:
 		2.5 To Do List:
 
-### 2.2 Tuorials 
+### 2.2 Tutorials 
 
-Flo, Youtube Tutorial [Github Desktop](https://youtu.be/8Dd7KRpKeaE?si=P5atVynZv97M06e_)
+- Flo, Youtube Tutorial [Github Desktop](https://youtu.be/8Dd7KRpKeaE?si=P5atVynZv97M06e_)
 
-Arbeiten im Browser mit Visual Studio Code (VS.Code): öffnet zwei Browser Fenster, in beiden Fenstern im Repository Anmelden. Jetzt könnt Ihr VOR DIESE ADRESSE genau hier --> https://github.com/bakihome/ZertifikatDownload dieses snippet eintragen -- vscode.dev/ -- also wie folgt -- vscode.dev/https://github.com/bakihome/ZertifikatDownload -- und enter drücken. // es öffnet sich daraufhin - Visual Studio Code innerhalb des Browsers -
+- Arbeiten im Browser mit Visual Studio Code (VS.Code): öffnet zwei Browser Fenster, in beiden Fenstern im Repository Anmelden. Jetzt könnt Ihr VOR DIESE ADRESSE genau hier --> https://github.com/bakihome/ZertifikatDownload dieses snippet eintragen -- vscode.dev/ -- also wie folgt -- vscode.dev/https://github.com/bakihome/ZertifikatDownload -- und enter drücken. // es öffnet sich daraufhin - Visual Studio Code innerhalb des Browsers -
 oder ihr klickt [hier](https://vscode.dev/github/bakihome/ZertifikatDownload) und werdet so zum - VS.Code im Browser - Rediracted:) ExplorationMode
+
+- ReadMe- Github-Wiki
+	- Hier gibts kleine hints
 
 ## 3. Dokumentation
 
-### 3.1 Prototyp Frontend-Team
+	3.1 Prototyp Frontend-Team
 
-### 3.2**Ganz unten kann eine _Link Dokumentation_ geführt werden (dient der übersicht und nachvollziehbarkeit der Recherchen wer möchte)**
+	3.2 Ganz unten kann eine _Link Dokumentation_ geführt werden (dient der übersicht und nachvollziehbarkeit der Recherchen wer möchte)
 
 ## 4. Teams
    
-### 4.1 Es gibt zwei Teams: Backend = Wir / Frontend = Extern
+### 4.1 Es gibt zwei Teams: Frontend = Extern & Backend = Wir
 
 - **Das Frontend - Team**: stellt die Benutzeroberfläche bereit, über die die Benutzer das Workshop-Zertifikat auswählen und ihren Namen eingeben können. Sie müssen Schnittstellen bereitstellen, um die eingegebenen Daten an das Zertifikatsspeicher-Team zu senden.
     
