@@ -4,6 +4,8 @@ practice, makes better:)
 
 Überlick:
 
+- Wer macht was:?
+
 - Next Week Abgabe Präsentation?:
 
 - Was bisher geschah?:
