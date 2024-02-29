@@ -24,12 +24,12 @@
    
 ## Es gibt zwei Teams:
 
-#### **Zertifikatsspeicher-Team** --> WIR --- & --- Webdesign Zertifikat Team --> Extern
+#### **Backend-Team** --> WIR --- & --- Frontend Team --> Extern
 
-- **Das Website-Team**: stellt die Benutzeroberfläche bereit, über die die Benutzer das Workshop-Zertifikat auswählen und ihren Namen eingeben können. Sie müssen Schnittstellen bereitstellen, um die eingegebenen Daten an das Zertifikatsspeicher-Team zu senden.
+- **Das Frontend - Team**: stellt die Benutzeroberfläche bereit, über die die Benutzer das Workshop-Zertifikat auswählen und ihren Namen eingeben können. Sie müssen Schnittstellen bereitstellen, um die eingegebenen Daten an das Zertifikatsspeicher-Team zu senden.
     
 - **API-Endpunkte**: Definieren Sie klare API-Endpunkte, über die das Zertifikatsspeicher-Team Daten empfangen kann.
-- **Datenformat**: Vereinbaren eines konsisten Datenformates, das sowohl vom Website-Team als auch vom Zertifikatsspeicher-Team verstanden wird, z. B. JSON.
+- **Datenformat**: Vereinbaren eines konsisten Datenformates, das sowohl vom Frontend-Team als auch vom Backend-Team verstanden wird, z. B. JSON.
 #### **Zertifikatsspeicher-Team** - zuständig für das Speichern der Zertifikate auf dem Server und das Bereitstellen von QR-Codes für den Download.
     
  - **Speichern von Zertifikaten**: Implementierung von einem Mechanismus zum Speichern der Zertifikate auf dem Server, z. B. in einer Datenbank.
@@ -42,11 +42,12 @@
     - Probleme: PDF - Wie bekommt man das als A4 Format? // sure fix?
     - Probleme: Screenshot sollte nur Zertifikat fenster aufnehmen nicht den ganzen Bildschirm // sure fix?
 
-#### **Website-Team**: Dieses Team stellt die Benutzeroberfläche bereit, über die die Benutzer das Workshop-Zertifikat auswählen und ihren Namen eingeben können. Sie müssen Schnittstellen bereitstellen, um die eingegebenen Daten an das Zertifikatsspeicher-Team zu senden.
+#### **Frontend - Team**: Dieses Team stellt die Benutzeroberfläche bereit, über die die Teilnehmer das Workshop-Zertifikat auswählen und ihren Namen eingeben können. 
+Sie müssen Schnittstellen bereitstellen, um die eingegebenen Daten an das Backend-Team zu senden.
     
-- **API-Endpunkte**: Definieren klarer API-Endpunkte, über die das Zertifikatsspeicher-Team die Daten empfangen können.
-- **Datenformat**: Vereinbaren Sie ein Datenformat, das sowohl vom Website-Team als auch vom Zertifikatsspeicher-Team verstanden wird, z. B. JSON.
-- Das Website-Team kann einen Dienst oder eine Bibliothek verwenden, um dynamisch ein PDF-Dokument zu generieren, das den gewünschten Teil der Website (das Zertifikat) enthält.
+- **API-Endpunkte**: Definieren klarer API-Endpunkte, über die das Backend-Team die Daten empfangen können.
+- **Datenformat**: Vereinbaren Sie ein Datenformat, das sowohl vom Website-Team als auch vom Backend-Team verstanden wird, z. B. JSON.
+- Das Frontend-Team kann einen Dienst oder eine Bibliothek verwenden, um dynamisch ein PDF-Dokument zu generieren, das den gewünschten Teil der Website (das Zertifikat) enthält.
 - Sie können beispielsweise Bibliotheken wie Puppeteer (für Node.js) oder WeasyPrint (für Python) verwenden, um den gewünschten Bereich der Website als PDF zu rendern und zu speichern.
 
 - **Screenshots**:
