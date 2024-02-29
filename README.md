@@ -1,16 +1,16 @@
 # Auf einer Webseite für "Kreative Manga IT Zertifikate" soll einen Button (Download) integriert werden 
 
-## Ganz unten kann eine Link Dokumentation geführt werden! (dient der übersicht und nachvollziehbarkeit der Recherchen wer will)
+## Ganz unten kann eine Link Dokumentation geführt werden!) (dient der übersicht und nachvollziehbarkeit der Recherchen wer möchte)
 
 Überlick:
 
-- Wer macht was: ?
+- Wer macht was: 
 
-- Next Week Abgabe Präsentation: Who?
+- Next Week Abgabe Präsentation:
 
-- Was bisher geschah: ?
+- bisher:
 
-- Was passieren sollte: ?
+- Was passieren sollte:
 
 - Vorschläge: 
 
@@ -38,7 +38,7 @@
 
 - **PDF | Screenshot Generierung**:
 
-    - Probleme: PDF übernimmt nicht Design der Website sondern nur Text // sure fix?
+    - Probleme: PDF übernimmt nicht Design der Website sondern nur Text // sure fix? // Bastian hatte das wiederlegt
     - Probleme: PDF - Wie bekommt man das als A4 Format? // sure fix?
     - Probleme: Screenshot sollte nur Zertifikat fenster aufnehmen nicht den ganzen Bildschirm // sure fix?
 
@@ -55,7 +55,7 @@
 
 Vorschläge:
 
-Um dieses Ziel zu erreichen, benötigen wir eine Kombination aus HTML, JavaScript und Server-seitiger Technologie wie z.B. Node.js oder PHP. Hier ist eine allgemeine Anleitung, wie du vorgehen könntest:
+Um dieses Ziel zu erreichen, benötigen wir eine Kombination aus HTML, JavaScript und Server-seitiger Technologie wie z.B. Node.js oder PHP. Hier ist eine allgemeine Anleitung, wie wir vorgehen könnten:
 
 1. **HTML und CSS**: Erstelle eine einfache Webseite mit einem Button, der den Screenshot auslöst.
 
