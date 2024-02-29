@@ -2,6 +2,18 @@
 
 ## Ganz unten kann eine Link Dokumentation geführt werden! (dient der übersicht und nachvollziehbarkeit der Recherchen wer will)
 
+Überlick:
+
+- Wer macht was: ?
+
+- Next Week Abgabe Präsentation: Who?
+
+- Was bisher geschah: ?
+
+- Was passieren sollte: ?
+
+- Vorschläge: 
+
 #### Eigenschaften des Buttons:
 
 1. Erstellt wird ein Screenshot/PDF der aktuellen Seite (ausgefülltes Zertifikat eines Benutzers)   
