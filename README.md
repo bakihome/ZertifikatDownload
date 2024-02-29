@@ -90,8 +90,12 @@ document.getElementById('screenshotButton').addEventListener('click', function()
 # Importend Research links:
 
 https://stackoverflow.com/questions/23359083/how-to-convert-webpage-into-pdf-by-using-python
-https://pypi.org/project/pdfkit/
+
+https://pypi.org/project/pdfkit/ 
+
 https://www.youtube.com/watch?v=46c__islxCg
+
+
 
 
 
