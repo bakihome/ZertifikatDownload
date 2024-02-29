@@ -1,30 +1,17 @@
-# Welcome to the HTL-Workshop-Certificate wiki!
+# Git and Markdown basics
 
-practice, makes better:) 
+- Also wer mag geht beim README auf Edit und macht anpassungen:)
 
-Überlick:
+- In den Readme dateien wird Markdown basierend geschrieben. 
 
-- Wer macht was:?
+- Markdown Grundlagen
 
-- Next Week Abgabe Präsentation?:
-
-- Was bisher geschah?:
-
-- Was passieren sollte:
-
-- Vorschläge: 
-
-In den Readme dateien wird Markdown basierend geschrieben. 
-
-Dokumentation mit Markdown Basics
-
-Schreiben Sie README.md-Dateien und verwenden Sie Markdown, [Markdown Befehle GitHub ](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), um den Code und das Projekt zu dokumentieren.
-or have a look at [this](https://www.youtube.com/watch?v=q9_9EnowPho)
-
-**Wichtige Punkte:**
-1. Verwenden Sie Markdown-Syntax, um Text zu formatieren, Links einzufügen und Bilder hinzuzufügen.
+Schreiben Sie README.md-Dateien und verwende Markdown. 
+- [Markdown Befehle GitHub ](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), um den Code und das Projekt zu dokumentieren.
+- or have a look at [this](https://www.youtube.com/watch?v=q9_9EnowPho)
 
 ## Interfaces und Konventionen
+
 Befolgen von Namenskonventionen, Standards und Dokumentationsrichtlinien für eine konsistente Entwicklung.
 
 **Wichtige Punkte:**
@@ -65,7 +52,7 @@ Hier sind einige grundlegende Git-Befehle, die Sie verwenden können, um mit ein
     git checkout <branch-name>: Wechseln Sie zu einem anderen Branch.
     git merge <branch-name>: Führen Sie Änderungen aus einem Branch in Ihren aktuellen Branch zusammen.
 
-# Hier die Befehle und Funktionen genauer:
+# Hier die Befehle und Funktionen als snippets:
 
 ## Repository klonen
 
