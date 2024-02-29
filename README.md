@@ -72,7 +72,7 @@ oder ihr klickt [hier](https://vscode.dev/github/bakihome/ZertifikatDownload) un
    
 ### 4.1 Es gibt zwei Teams: Frontend = Extern & Backend = Wir
 
-- **Das Frontend - Team**: stellt die Benutzeroberfläche bereit, über die die Benutzer das Workshop-Zertifikat auswählen und ihren Namen eingeben können. Sie müssen Schnittstellen bereitstellen, um die eingegebenen Daten an das Zertifikatsspeicher-Team zu senden.
+- **Das Frontend - Team**: stellt die Benutzeroberfläche bereit, über die die Benutzer das Workshop-Zertifikat auswählen und ihren Namen eingeben können. Sie müssen Schnittstellen bereitstellen, um die eingegebenen Daten an das Backend-Team zu senden.
     
 - **API-Endpunkte**: Definieren Sie klare API-Endpunkte, über die das Backend-Team Daten empfangen kann.
 - **Datenformat**: Vereinbaren eines konsisten Datenformates, das sowohl vom Frontend-Team als auch vom Backend-Team verstanden wird, z. B. JSON.
